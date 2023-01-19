@@ -19,6 +19,10 @@ export default function Header(props) {
         </li>
       
         <li className="nav-item">
+          <a className="nav-link disabled">Todo</a>
+        </li>
+              
+        <li className="nav-item">
           <a className="nav-link disabled">Disabled</a>
         </li>
       </ul>
